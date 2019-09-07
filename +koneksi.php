@@ -7,7 +7,7 @@ if(isset($_SERVER['HTTP_USER_AGENT'])) {
 	}
 }
 
-$conn = new mysqli("localhost", "root", "sepakbola", "apotekah");
+$conn = new mysqli("localhost", "[localhost.username]", "[localhost.password]", "[database.name]");
 
 function tgl_indo($tgl) {
 	$tanggal = substr($tgl,8,2);
